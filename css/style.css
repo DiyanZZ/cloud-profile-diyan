@@ -1,0 +1,122 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f7ef;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2e7d32; /* Hijau tua */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 5px 5px 0 0;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0; /* Abu-abu terang */
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.profile-card {
+    text-align: center;
+    color: #333;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 5px solid #2e7d32; /* Hijau tua */
+}
+
+.job-title {
+    font-size: 14px;
+    color: #666; /* Abu-abu */
+}
+
+.content-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.my-story, .personal-info {
+    flex: 1;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #c8e6c9; /* Hijau muda */
+    border-radius: 5px;
+}
+
+.my-story h3, .personal-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2e7d32; /* Hijau tua */
+}
+
+.personal-info p {
+    margin: 8px 0;
+    color: #333;
+}
+
+.personal-info p strong {
+    display: inline-block;
+    width: 80px;
+    font-weight: bold;
+    color: #2e7d32; /* Hijau tua */
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Abu-abu terang */
+    border-radius: 5px;
+    border: 1px solid #c8e6c9; /* Hijau muda */
+}
+
+.social-media h3 {
+    font-size: 18px;
+    color: #2e7d32; /* Hijau tua */
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid #2e7d32; /* Hijau tua */
+}
+
+.social-media a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+}
